@@ -40,6 +40,8 @@
 		C728EABA1F6A61A40047146A /* wf_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C728EAA61F6A61A40047146A /* wf_icon@2x.jpg */; };
 		C728EABB1F6A61A40047146A /* zxy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C728EAA71F6A61A40047146A /* zxy@2x.jpg */; };
 		C728EABC1F6A61A40047146A /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C728EAA81F6A61A40047146A /* zxy_icon@2x.jpg */; };
+		C728EAC01F6A72E60047146A /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EABF1F6A72E60047146A /* CALayer+Extension.swift */; };
+		C728EAC21F6A777D0047146A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC11F6A777D0047146A /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		C728EAA61F6A61A40047146A /* wf_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf_icon@2x.jpg"; sourceTree = "<group>"; };
 		C728EAA71F6A61A40047146A /* zxy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy@2x.jpg"; sourceTree = "<group>"; };
 		C728EAA81F6A61A40047146A /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		C728EABF1F6A72E60047146A /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		C728EAC11F6A777D0047146A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +302,8 @@
 		C728EABD1F6A6AB00047146A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C728EABF1F6A72E60047146A /* CALayer+Extension.swift */,
+				C728EAC11F6A777D0047146A /* UIView+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -470,6 +476,8 @@
 			files = (
 				C728EA781F6A1EAF0047146A /* ViewController.swift in Sources */,
 				C728EA8A1F6A21A20047146A /* KKMusicModel.swift in Sources */,
+				C728EAC21F6A777D0047146A /* UIView+Extension.swift in Sources */,
+				C728EAC01F6A72E60047146A /* CALayer+Extension.swift in Sources */,
 				C728EA881F6A21440047146A /* KKListViewController.swift in Sources */,
 				C728EA8D1F6A226C0047146A /* KKMusicCell.swift in Sources */,
 				C728EA761F6A1EAF0047146A /* AppDelegate.swift in Sources */,
@@ -707,6 +715,7 @@
 				C728EA671F6A1DF50047146A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C728EA681F6A1DF50047146A /* Build configuration list for PBXNativeTarget "KKFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +724,7 @@
 				C728EA6A1F6A1DF50047146A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C728EA6B1F6A1DF50047146A /* Build configuration list for PBXNativeTarget "KKFriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +733,7 @@
 				C728EA6D1F6A1DF50047146A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
