@@ -42,6 +42,11 @@
 		C728EABC1F6A61A40047146A /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C728EAA81F6A61A40047146A /* zxy_icon@2x.jpg */; };
 		C728EAC01F6A72E60047146A /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EABF1F6A72E60047146A /* CALayer+Extension.swift */; };
 		C728EAC21F6A777D0047146A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC11F6A777D0047146A /* UIView+Extension.swift */; };
+		C728EAC41F6A78740047146A /* KKMusicDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC31F6A78740047146A /* KKMusicDataManager.swift */; };
+		C728EAC61F6A78990047146A /* KKMusicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC51F6A78990047146A /* KKMusicTool.swift */; };
+		C728EAC81F6A7CA30047146A /* KKMusicOperationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC71F6A7CA30047146A /* KKMusicOperationTool.swift */; };
+		C728EACA1F6A81710047146A /* KKMusicMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC91F6A81710047146A /* KKMusicMessageModel.swift */; };
+		C728EACC1F6A82210047146A /* KKTimeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EACB1F6A82210047146A /* KKTimeTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +105,11 @@
 		C728EAA81F6A61A40047146A /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
 		C728EABF1F6A72E60047146A /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		C728EAC11F6A777D0047146A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C728EAC31F6A78740047146A /* KKMusicDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMusicDataManager.swift; sourceTree = "<group>"; };
+		C728EAC51F6A78990047146A /* KKMusicTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMusicTool.swift; sourceTree = "<group>"; };
+		C728EAC71F6A7CA30047146A /* KKMusicOperationTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMusicOperationTool.swift; sourceTree = "<group>"; };
+		C728EAC91F6A81710047146A /* KKMusicMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMusicMessageModel.swift; sourceTree = "<group>"; };
+		C728EACB1F6A82210047146A /* KKTimeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKTimeTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +236,7 @@
 		C728EA811F6A1F610047146A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C728EAC91F6A81710047146A /* KKMusicMessageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +322,10 @@
 		C728EABE1F6A6AB00047146A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C728EAC31F6A78740047146A /* KKMusicDataManager.swift */,
+				C728EAC51F6A78990047146A /* KKMusicTool.swift */,
+				C728EAC71F6A7CA30047146A /* KKMusicOperationTool.swift */,
+				C728EACB1F6A82210047146A /* KKTimeTool.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -476,11 +491,16 @@
 			files = (
 				C728EA781F6A1EAF0047146A /* ViewController.swift in Sources */,
 				C728EA8A1F6A21A20047146A /* KKMusicModel.swift in Sources */,
+				C728EAC81F6A7CA30047146A /* KKMusicOperationTool.swift in Sources */,
 				C728EAC21F6A777D0047146A /* UIView+Extension.swift in Sources */,
 				C728EAC01F6A72E60047146A /* CALayer+Extension.swift in Sources */,
 				C728EA881F6A21440047146A /* KKListViewController.swift in Sources */,
 				C728EA8D1F6A226C0047146A /* KKMusicCell.swift in Sources */,
 				C728EA761F6A1EAF0047146A /* AppDelegate.swift in Sources */,
+				C728EACC1F6A82210047146A /* KKTimeTool.swift in Sources */,
+				C728EAC61F6A78990047146A /* KKMusicTool.swift in Sources */,
+				C728EACA1F6A81710047146A /* KKMusicMessageModel.swift in Sources */,
+				C728EAC41F6A78740047146A /* KKMusicDataManager.swift in Sources */,
 				C728EA931F6A56F40047146A /* KKDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
