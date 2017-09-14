@@ -10,5 +10,9 @@ import UIKit
 
 class KKMusicDataManager: NSObject {
 
+    class func getMusicMs(_ result:([KKMusicModel]) -> ()){
+        guard let plistPath = Bundle.main.path(forResource: "OldFriends.plist", ofType: nil) else { return}
+        
     
+    }
 }
