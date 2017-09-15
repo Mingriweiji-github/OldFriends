@@ -71,21 +71,39 @@ class KKMusicOperationTool: NSObject {
     func setupLockMessage(){
         let messageM = getMusicWithMessage()
         
-        let musicName = messageM.music?.songname
-        let singername = messageM.music?.singername
+        let musicName = messageM.music?.songname ?? ""
+        let singername = messageM.music?.singername ?? ""
         let cost = messageM.costTime
         let total = messageM.totalTime
         
         let lrcFile = messageM.music?.lrcname
-        let lrcMs = 
+        let lrcMs = KKMusicDataManager.getLrcModelS(lrcFile)
+        let lrcModelAndRow = KKMusicDataManager.getCurrentLrcM(musicMessageM.costTime, lrcMs: lrcMs)
+        let lrcM = lrcModelAndRow.lrcM
         
+        var resultImage:UIImage?
+        if lastRow != lrcModelAndRow.row {
+            lastRow = lrcModelAndRow.row
+            resultImage = KKImageTool.getNewImage(UIImage(named:(messageM.music?.icon)!), str: lrcM?.lrcContent)
+            if resultImage != nil{artWork = MPMediaItemArtwork(image:resultImage!)}
+        }
         
+        let dic: NSMutableDictionary = [
+            MPMediaItemPropertyAlbumTitle: musicName,
+            MPMediaItemPropertyArtist: singername,
+            MPMediaItemPropertyPlaybackDuration:total,
+            MPNowPlayingInfoPropertyElapsedPlaybackTime:cost
+        ]
         
+        if artWork != nil {
+            dic.setValue(artWork!, forKey: MPMediaItemPropertyArtwork)
+        }
+        let dicCopy = dic.copy()
         
-        
-        
-        
-        
+        //锁屏信息
+        let center = MPNowPlayingInfoCenter.default()
+        center.nowPlayingInfo = dicCopy as? [String : Any]
+        UIApplication.shared.beginReceivingRemoteControlEvents()
     }
     
 }

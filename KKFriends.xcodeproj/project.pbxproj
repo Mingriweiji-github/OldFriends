@@ -78,6 +78,8 @@
 		C74002F71F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 */; };
 		C74002F81F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002E01F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 */; };
 		C74002F91F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002E11F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 */; };
+		C74002FB1F6B6E870061C33C /* KKLrcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74002FA1F6B6E870061C33C /* KKLrcModel.swift */; };
+		C74002FD1F6B71FF0061C33C /* KKImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74002FC1F6B71FF0061C33C /* KKImageTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +174,8 @@
 		C74002DF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E22].mp3"; sourceTree = "<group>"; };
 		C74002E01F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E23].mp3"; sourceTree = "<group>"; };
 		C74002E11F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E24].mp3"; sourceTree = "<group>"; };
+		C74002FA1F6B6E870061C33C /* KKLrcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKLrcModel.swift; sourceTree = "<group>"; };
+		C74002FC1F6B71FF0061C33C /* KKImageTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKImageTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,13 +264,13 @@
 			isa = PBXGroup;
 			children = (
 				C728EA8F1F6A28610047146A /* Info.plist */,
+				C728EACD1F6A8A540047146A /* OldFriends.plist */,
 				C728EA751F6A1EAF0047146A /* Main.storyboard */,
 				C74002C91F6B64F60061C33C /* MP3s */,
 				C74002981F6B63D00061C33C /* Lrcs */,
 				C728EA941F6A61A40047146A /* Images */,
 				C728EA731F6A1EAF0047146A /* Assets.xcassets */,
 				C728EA741F6A1EAF0047146A /* LaunchScreen.storyboard */,
-				C728EACD1F6A8A540047146A /* OldFriends.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -302,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				C728EAC91F6A81710047146A /* KKMusicMessageModel.swift */,
+				C74002FA1F6B6E870061C33C /* KKLrcModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 				C728EAC51F6A78990047146A /* KKMusicTool.swift */,
 				C728EAC71F6A7CA30047146A /* KKMusicOperationTool.swift */,
 				C728EACB1F6A82210047146A /* KKTimeTool.swift */,
+				C74002FC1F6B71FF0061C33C /* KKImageTool.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -640,7 +646,9 @@
 				C728EACC1F6A82210047146A /* KKTimeTool.swift in Sources */,
 				C728EAC61F6A78990047146A /* KKMusicTool.swift in Sources */,
 				C728EACA1F6A81710047146A /* KKMusicMessageModel.swift in Sources */,
+				C74002FB1F6B6E870061C33C /* KKLrcModel.swift in Sources */,
 				C728EAC41F6A78740047146A /* KKMusicDataManager.swift in Sources */,
+				C74002FD1F6B71FF0061C33C /* KKImageTool.swift in Sources */,
 				C728EA931F6A56F40047146A /* KKDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
