@@ -54,6 +54,30 @@
 		C74002C61F6B63D00061C33C /* tingvoa.com_122.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AE1F6B63D00061C33C /* tingvoa.com_122.lrc */; };
 		C74002C71F6B63D00061C33C /* tingvoa.com_123.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AF1F6B63D00061C33C /* tingvoa.com_123.lrc */; };
 		C74002C81F6B63D00061C33C /* tingvoa.com_124.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002B01F6B63D00061C33C /* tingvoa.com_124.lrc */; };
+		C74002E21F6B64F60061C33C /* [六人行.第一季][Friends.S01E01].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002CA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E01].mp3 */; };
+		C74002E31F6B64F60061C33C /* [六人行.第一季][Friends.S01E02].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002CB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E02].mp3 */; };
+		C74002E41F6B64F60061C33C /* [六人行.第一季][Friends.S01E03].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002CC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E03].mp3 */; };
+		C74002E51F6B64F60061C33C /* [六人行.第一季][Friends.S01E04].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002CD1F6B64F60061C33C /* [六人行.第一季][Friends.S01E04].mp3 */; };
+		C74002E61F6B64F60061C33C /* [六人行.第一季][Friends.S01E05].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002CE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E05].mp3 */; };
+		C74002E71F6B64F60061C33C /* [六人行.第一季][Friends.S01E06].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002CF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E06].mp3 */; };
+		C74002E81F6B64F60061C33C /* [六人行.第一季][Friends.S01E07].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D01F6B64F60061C33C /* [六人行.第一季][Friends.S01E07].mp3 */; };
+		C74002E91F6B64F60061C33C /* [六人行.第一季][Friends.S01E08].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D11F6B64F60061C33C /* [六人行.第一季][Friends.S01E08].mp3 */; };
+		C74002EA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E09].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D21F6B64F60061C33C /* [六人行.第一季][Friends.S01E09].mp3 */; };
+		C74002EB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E10].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D31F6B64F60061C33C /* [六人行.第一季][Friends.S01E10].mp3 */; };
+		C74002EC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E11].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D41F6B64F60061C33C /* [六人行.第一季][Friends.S01E11].mp3 */; };
+		C74002ED1F6B64F60061C33C /* [六人行.第一季][Friends.S01E12].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D51F6B64F60061C33C /* [六人行.第一季][Friends.S01E12].mp3 */; };
+		C74002EE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E13].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D61F6B64F60061C33C /* [六人行.第一季][Friends.S01E13].mp3 */; };
+		C74002EF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E14].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D71F6B64F60061C33C /* [六人行.第一季][Friends.S01E14].mp3 */; };
+		C74002F01F6B64F60061C33C /* [六人行.第一季][Friends.S01E15].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D81F6B64F60061C33C /* [六人行.第一季][Friends.S01E15].mp3 */; };
+		C74002F11F6B64F60061C33C /* [六人行.第一季][Friends.S01E16].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002D91F6B64F60061C33C /* [六人行.第一季][Friends.S01E16].mp3 */; };
+		C74002F21F6B64F60061C33C /* [六人行.第一季][Friends.S01E17].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E17].mp3 */; };
+		C74002F31F6B64F60061C33C /* [六人行.第一季][Friends.S01E18].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E18].mp3 */; };
+		C74002F41F6B64F60061C33C /* [六人行.第一季][Friends.S01E19].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E19].mp3 */; };
+		C74002F51F6B64F60061C33C /* [六人行.第一季][Friends.S01E20].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DD1F6B64F60061C33C /* [六人行.第一季][Friends.S01E20].mp3 */; };
+		C74002F61F6B64F60061C33C /* [六人行.第一季][Friends.S01E21].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E21].mp3 */; };
+		C74002F71F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002DF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 */; };
+		C74002F81F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002E01F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 */; };
+		C74002F91F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C74002E11F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +148,30 @@
 		C74002AE1F6B63D00061C33C /* tingvoa.com_122.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_122.lrc; sourceTree = "<group>"; };
 		C74002AF1F6B63D00061C33C /* tingvoa.com_123.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_123.lrc; sourceTree = "<group>"; };
 		C74002B01F6B63D00061C33C /* tingvoa.com_124.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_124.lrc; sourceTree = "<group>"; };
+		C74002CA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E01].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E01].mp3"; sourceTree = "<group>"; };
+		C74002CB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E02].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E02].mp3"; sourceTree = "<group>"; };
+		C74002CC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E03].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E03].mp3"; sourceTree = "<group>"; };
+		C74002CD1F6B64F60061C33C /* [六人行.第一季][Friends.S01E04].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E04].mp3"; sourceTree = "<group>"; };
+		C74002CE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E05].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E05].mp3"; sourceTree = "<group>"; };
+		C74002CF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E06].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E06].mp3"; sourceTree = "<group>"; };
+		C74002D01F6B64F60061C33C /* [六人行.第一季][Friends.S01E07].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E07].mp3"; sourceTree = "<group>"; };
+		C74002D11F6B64F60061C33C /* [六人行.第一季][Friends.S01E08].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E08].mp3"; sourceTree = "<group>"; };
+		C74002D21F6B64F60061C33C /* [六人行.第一季][Friends.S01E09].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E09].mp3"; sourceTree = "<group>"; };
+		C74002D31F6B64F60061C33C /* [六人行.第一季][Friends.S01E10].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E10].mp3"; sourceTree = "<group>"; };
+		C74002D41F6B64F60061C33C /* [六人行.第一季][Friends.S01E11].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E11].mp3"; sourceTree = "<group>"; };
+		C74002D51F6B64F60061C33C /* [六人行.第一季][Friends.S01E12].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E12].mp3"; sourceTree = "<group>"; };
+		C74002D61F6B64F60061C33C /* [六人行.第一季][Friends.S01E13].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E13].mp3"; sourceTree = "<group>"; };
+		C74002D71F6B64F60061C33C /* [六人行.第一季][Friends.S01E14].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E14].mp3"; sourceTree = "<group>"; };
+		C74002D81F6B64F60061C33C /* [六人行.第一季][Friends.S01E15].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E15].mp3"; sourceTree = "<group>"; };
+		C74002D91F6B64F60061C33C /* [六人行.第一季][Friends.S01E16].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E16].mp3"; sourceTree = "<group>"; };
+		C74002DA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E17].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E17].mp3"; sourceTree = "<group>"; };
+		C74002DB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E18].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E18].mp3"; sourceTree = "<group>"; };
+		C74002DC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E19].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E19].mp3"; sourceTree = "<group>"; };
+		C74002DD1F6B64F60061C33C /* [六人行.第一季][Friends.S01E20].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E20].mp3"; sourceTree = "<group>"; };
+		C74002DE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E21].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E21].mp3"; sourceTree = "<group>"; };
+		C74002DF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E22].mp3"; sourceTree = "<group>"; };
+		C74002E01F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E23].mp3"; sourceTree = "<group>"; };
+		C74002E11F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[六人行.第一季][Friends.S01E24].mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +261,7 @@
 			children = (
 				C728EA8F1F6A28610047146A /* Info.plist */,
 				C728EA751F6A1EAF0047146A /* Main.storyboard */,
+				C74002C91F6B64F60061C33C /* MP3s */,
 				C74002981F6B63D00061C33C /* Lrcs */,
 				C728EA941F6A61A40047146A /* Images */,
 				C728EA731F6A1EAF0047146A /* Assets.xcassets */,
@@ -359,6 +408,37 @@
 			path = Lrcs;
 			sourceTree = "<group>";
 		};
+		C74002C91F6B64F60061C33C /* MP3s */ = {
+			isa = PBXGroup;
+			children = (
+				C74002CA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E01].mp3 */,
+				C74002CB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E02].mp3 */,
+				C74002CC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E03].mp3 */,
+				C74002CD1F6B64F60061C33C /* [六人行.第一季][Friends.S01E04].mp3 */,
+				C74002CE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E05].mp3 */,
+				C74002CF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E06].mp3 */,
+				C74002D01F6B64F60061C33C /* [六人行.第一季][Friends.S01E07].mp3 */,
+				C74002D11F6B64F60061C33C /* [六人行.第一季][Friends.S01E08].mp3 */,
+				C74002D21F6B64F60061C33C /* [六人行.第一季][Friends.S01E09].mp3 */,
+				C74002D31F6B64F60061C33C /* [六人行.第一季][Friends.S01E10].mp3 */,
+				C74002D41F6B64F60061C33C /* [六人行.第一季][Friends.S01E11].mp3 */,
+				C74002D51F6B64F60061C33C /* [六人行.第一季][Friends.S01E12].mp3 */,
+				C74002D61F6B64F60061C33C /* [六人行.第一季][Friends.S01E13].mp3 */,
+				C74002D71F6B64F60061C33C /* [六人行.第一季][Friends.S01E14].mp3 */,
+				C74002D81F6B64F60061C33C /* [六人行.第一季][Friends.S01E15].mp3 */,
+				C74002D91F6B64F60061C33C /* [六人行.第一季][Friends.S01E16].mp3 */,
+				C74002DA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E17].mp3 */,
+				C74002DB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E18].mp3 */,
+				C74002DC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E19].mp3 */,
+				C74002DD1F6B64F60061C33C /* [六人行.第一季][Friends.S01E20].mp3 */,
+				C74002DE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E21].mp3 */,
+				C74002DF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 */,
+				C74002E01F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 */,
+				C74002E11F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 */,
+			);
+			path = MP3s;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -470,15 +550,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				C74002BD1F6B63D00061C33C /* tingvoa.com_113.lrc in Resources */,
+				C74002E81F6B64F60061C33C /* [六人行.第一季][Friends.S01E07].mp3 in Resources */,
 				C728EA911F6A28FC0047146A /* Info.plist in Resources */,
 				C728EAB01F6A61A40047146A /* jay_icon@2x.png in Resources */,
+				C74002F11F6B64F60061C33C /* [六人行.第一季][Friends.S01E16].mp3 in Resources */,
+				C74002EB1F6B64F60061C33C /* [六人行.第一季][Friends.S01E10].mp3 in Resources */,
+				C74002F31F6B64F60061C33C /* [六人行.第一季][Friends.S01E18].mp3 in Resources */,
+				C74002E41F6B64F60061C33C /* [六人行.第一季][Friends.S01E03].mp3 in Resources */,
 				C74002C61F6B63D00061C33C /* tingvoa.com_122.lrc in Resources */,
+				C74002F01F6B64F60061C33C /* [六人行.第一季][Friends.S01E15].mp3 in Resources */,
 				C728EA8E1F6A226C0047146A /* KKMusicCell.xib in Resources */,
+				C74002F91F6B64F60061C33C /* [六人行.第一季][Friends.S01E24].mp3 in Resources */,
 				C74002C51F6B63D00061C33C /* tingvoa.com_121.lrc in Resources */,
 				C74002B41F6B63D00061C33C /* tingvoa.com_104.lrc in Resources */,
 				C74002C41F6B63D00061C33C /* tingvoa.com_120.lrc in Resources */,
+				C74002F81F6B64F60061C33C /* [六人行.第一季][Friends.S01E23].mp3 in Resources */,
+				C74002F41F6B64F60061C33C /* [六人行.第一季][Friends.S01E19].mp3 in Resources */,
 				C74002BB1F6B63D00061C33C /* tingvoa.com_111.lrc in Resources */,
+				C74002ED1F6B64F60061C33C /* [六人行.第一季][Friends.S01E12].mp3 in Resources */,
+				C74002E61F6B64F60061C33C /* [六人行.第一季][Friends.S01E05].mp3 in Resources */,
 				C74002C01F6B63D00061C33C /* tingvoa.com_116.lrc in Resources */,
+				C74002E21F6B64F60061C33C /* [六人行.第一季][Friends.S01E01].mp3 in Resources */,
 				C74002B11F6B63D00061C33C /* tingvoa.com_101.lrc in Resources */,
 				C728EACE1F6A8A540047146A /* OldFriends.plist in Resources */,
 				C74002BA1F6B63D00061C33C /* tingvoa.com_110.lrc in Resources */,
@@ -486,21 +578,33 @@
 				C74002B31F6B63D00061C33C /* tingvoa.com_103.lrc in Resources */,
 				C74002C21F6B63D00061C33C /* tingvoa.com_118.lrc in Resources */,
 				C74002BC1F6B63D00061C33C /* tingvoa.com_112.lrc in Resources */,
+				C74002EE1F6B64F60061C33C /* [六人行.第一季][Friends.S01E13].mp3 in Resources */,
+				C74002E91F6B64F60061C33C /* [六人行.第一季][Friends.S01E08].mp3 in Resources */,
+				C74002F71F6B64F60061C33C /* [六人行.第一季][Friends.S01E22].mp3 in Resources */,
 				C74002BE1F6B63D00061C33C /* tingvoa.com_114.lrc in Resources */,
 				C728EA7A1F6A1EAF0047146A /* LaunchScreen.storyboard in Resources */,
 				C74002B61F6B63D00061C33C /* tingvoa.com_106.lrc in Resources */,
 				C74002B21F6B63D00061C33C /* tingvoa.com_102.lrc in Resources */,
+				C74002F21F6B64F60061C33C /* [六人行.第一季][Friends.S01E17].mp3 in Resources */,
 				C728EA791F6A1EAF0047146A /* Assets.xcassets in Resources */,
 				C74002B71F6B63D00061C33C /* tingvoa.com_107.lrc in Resources */,
 				C74002BF1F6B63D00061C33C /* tingvoa.com_115.lrc in Resources */,
 				C74002C11F6B63D00061C33C /* tingvoa.com_117.lrc in Resources */,
+				C74002F61F6B64F60061C33C /* [六人行.第一季][Friends.S01E21].mp3 in Resources */,
+				C74002EC1F6B64F60061C33C /* [六人行.第一季][Friends.S01E11].mp3 in Resources */,
+				C74002F51F6B64F60061C33C /* [六人行.第一季][Friends.S01E20].mp3 in Resources */,
 				C728EA7B1F6A1EAF0047146A /* Main.storyboard in Resources */,
+				C74002E71F6B64F60061C33C /* [六人行.第一季][Friends.S01E06].mp3 in Resources */,
+				C74002E31F6B64F60061C33C /* [六人行.第一季][Friends.S01E02].mp3 in Resources */,
 				C74002C71F6B63D00061C33C /* tingvoa.com_123.lrc in Resources */,
 				C74002B51F6B63D00061C33C /* tingvoa.com_105.lrc in Resources */,
 				C74002C31F6B63D00061C33C /* tingvoa.com_119.lrc in Resources */,
 				C74002C81F6B63D00061C33C /* tingvoa.com_124.lrc in Resources */,
+				C74002E51F6B64F60061C33C /* [六人行.第一季][Friends.S01E04].mp3 in Resources */,
 				C74002B81F6B63D00061C33C /* tingvoa.com_108.lrc in Resources */,
 				C74002B91F6B63D00061C33C /* tingvoa.com_109.lrc in Resources */,
+				C74002EF1F6B64F60061C33C /* [六人行.第一季][Friends.S01E14].mp3 in Resources */,
+				C74002EA1F6B64F60061C33C /* [六人行.第一季][Friends.S01E09].mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
