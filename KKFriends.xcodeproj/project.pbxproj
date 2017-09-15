@@ -30,6 +30,30 @@
 		C728EACA1F6A81710047146A /* KKMusicMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EAC91F6A81710047146A /* KKMusicMessageModel.swift */; };
 		C728EACC1F6A82210047146A /* KKTimeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C728EACB1F6A82210047146A /* KKTimeTool.swift */; };
 		C728EACE1F6A8A540047146A /* OldFriends.plist in Resources */ = {isa = PBXBuildFile; fileRef = C728EACD1F6A8A540047146A /* OldFriends.plist */; };
+		C74002B11F6B63D00061C33C /* tingvoa.com_101.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002991F6B63D00061C33C /* tingvoa.com_101.lrc */; };
+		C74002B21F6B63D00061C33C /* tingvoa.com_102.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C740029A1F6B63D00061C33C /* tingvoa.com_102.lrc */; };
+		C74002B31F6B63D00061C33C /* tingvoa.com_103.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C740029B1F6B63D00061C33C /* tingvoa.com_103.lrc */; };
+		C74002B41F6B63D00061C33C /* tingvoa.com_104.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C740029C1F6B63D00061C33C /* tingvoa.com_104.lrc */; };
+		C74002B51F6B63D00061C33C /* tingvoa.com_105.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C740029D1F6B63D00061C33C /* tingvoa.com_105.lrc */; };
+		C74002B61F6B63D00061C33C /* tingvoa.com_106.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C740029E1F6B63D00061C33C /* tingvoa.com_106.lrc */; };
+		C74002B71F6B63D00061C33C /* tingvoa.com_107.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C740029F1F6B63D00061C33C /* tingvoa.com_107.lrc */; };
+		C74002B81F6B63D00061C33C /* tingvoa.com_108.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A01F6B63D00061C33C /* tingvoa.com_108.lrc */; };
+		C74002B91F6B63D00061C33C /* tingvoa.com_109.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A11F6B63D00061C33C /* tingvoa.com_109.lrc */; };
+		C74002BA1F6B63D00061C33C /* tingvoa.com_110.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A21F6B63D00061C33C /* tingvoa.com_110.lrc */; };
+		C74002BB1F6B63D00061C33C /* tingvoa.com_111.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A31F6B63D00061C33C /* tingvoa.com_111.lrc */; };
+		C74002BC1F6B63D00061C33C /* tingvoa.com_112.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A41F6B63D00061C33C /* tingvoa.com_112.lrc */; };
+		C74002BD1F6B63D00061C33C /* tingvoa.com_113.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A51F6B63D00061C33C /* tingvoa.com_113.lrc */; };
+		C74002BE1F6B63D00061C33C /* tingvoa.com_114.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A61F6B63D00061C33C /* tingvoa.com_114.lrc */; };
+		C74002BF1F6B63D00061C33C /* tingvoa.com_115.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A71F6B63D00061C33C /* tingvoa.com_115.lrc */; };
+		C74002C01F6B63D00061C33C /* tingvoa.com_116.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A81F6B63D00061C33C /* tingvoa.com_116.lrc */; };
+		C74002C11F6B63D00061C33C /* tingvoa.com_117.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002A91F6B63D00061C33C /* tingvoa.com_117.lrc */; };
+		C74002C21F6B63D00061C33C /* tingvoa.com_118.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AA1F6B63D00061C33C /* tingvoa.com_118.lrc */; };
+		C74002C31F6B63D00061C33C /* tingvoa.com_119.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AB1F6B63D00061C33C /* tingvoa.com_119.lrc */; };
+		C74002C41F6B63D00061C33C /* tingvoa.com_120.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AC1F6B63D00061C33C /* tingvoa.com_120.lrc */; };
+		C74002C51F6B63D00061C33C /* tingvoa.com_121.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AD1F6B63D00061C33C /* tingvoa.com_121.lrc */; };
+		C74002C61F6B63D00061C33C /* tingvoa.com_122.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AE1F6B63D00061C33C /* tingvoa.com_122.lrc */; };
+		C74002C71F6B63D00061C33C /* tingvoa.com_123.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002AF1F6B63D00061C33C /* tingvoa.com_123.lrc */; };
+		C74002C81F6B63D00061C33C /* tingvoa.com_124.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C74002B01F6B63D00061C33C /* tingvoa.com_124.lrc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +100,30 @@
 		C728EAC91F6A81710047146A /* KKMusicMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMusicMessageModel.swift; sourceTree = "<group>"; };
 		C728EACB1F6A82210047146A /* KKTimeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKTimeTool.swift; sourceTree = "<group>"; };
 		C728EACD1F6A8A540047146A /* OldFriends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OldFriends.plist; sourceTree = "<group>"; };
+		C74002991F6B63D00061C33C /* tingvoa.com_101.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_101.lrc; sourceTree = "<group>"; };
+		C740029A1F6B63D00061C33C /* tingvoa.com_102.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_102.lrc; sourceTree = "<group>"; };
+		C740029B1F6B63D00061C33C /* tingvoa.com_103.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_103.lrc; sourceTree = "<group>"; };
+		C740029C1F6B63D00061C33C /* tingvoa.com_104.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_104.lrc; sourceTree = "<group>"; };
+		C740029D1F6B63D00061C33C /* tingvoa.com_105.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_105.lrc; sourceTree = "<group>"; };
+		C740029E1F6B63D00061C33C /* tingvoa.com_106.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_106.lrc; sourceTree = "<group>"; };
+		C740029F1F6B63D00061C33C /* tingvoa.com_107.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_107.lrc; sourceTree = "<group>"; };
+		C74002A01F6B63D00061C33C /* tingvoa.com_108.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_108.lrc; sourceTree = "<group>"; };
+		C74002A11F6B63D00061C33C /* tingvoa.com_109.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_109.lrc; sourceTree = "<group>"; };
+		C74002A21F6B63D00061C33C /* tingvoa.com_110.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_110.lrc; sourceTree = "<group>"; };
+		C74002A31F6B63D00061C33C /* tingvoa.com_111.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_111.lrc; sourceTree = "<group>"; };
+		C74002A41F6B63D00061C33C /* tingvoa.com_112.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_112.lrc; sourceTree = "<group>"; };
+		C74002A51F6B63D00061C33C /* tingvoa.com_113.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_113.lrc; sourceTree = "<group>"; };
+		C74002A61F6B63D00061C33C /* tingvoa.com_114.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_114.lrc; sourceTree = "<group>"; };
+		C74002A71F6B63D00061C33C /* tingvoa.com_115.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_115.lrc; sourceTree = "<group>"; };
+		C74002A81F6B63D00061C33C /* tingvoa.com_116.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_116.lrc; sourceTree = "<group>"; };
+		C74002A91F6B63D00061C33C /* tingvoa.com_117.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_117.lrc; sourceTree = "<group>"; };
+		C74002AA1F6B63D00061C33C /* tingvoa.com_118.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_118.lrc; sourceTree = "<group>"; };
+		C74002AB1F6B63D00061C33C /* tingvoa.com_119.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_119.lrc; sourceTree = "<group>"; };
+		C74002AC1F6B63D00061C33C /* tingvoa.com_120.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_120.lrc; sourceTree = "<group>"; };
+		C74002AD1F6B63D00061C33C /* tingvoa.com_121.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_121.lrc; sourceTree = "<group>"; };
+		C74002AE1F6B63D00061C33C /* tingvoa.com_122.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_122.lrc; sourceTree = "<group>"; };
+		C74002AF1F6B63D00061C33C /* tingvoa.com_123.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_123.lrc; sourceTree = "<group>"; };
+		C74002B01F6B63D00061C33C /* tingvoa.com_124.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tingvoa.com_124.lrc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +213,7 @@
 			children = (
 				C728EA8F1F6A28610047146A /* Info.plist */,
 				C728EA751F6A1EAF0047146A /* Main.storyboard */,
+				C74002981F6B63D00061C33C /* Lrcs */,
 				C728EA941F6A61A40047146A /* Images */,
 				C728EA731F6A1EAF0047146A /* Assets.xcassets */,
 				C728EA741F6A1EAF0047146A /* LaunchScreen.storyboard */,
@@ -279,6 +328,37 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		C74002981F6B63D00061C33C /* Lrcs */ = {
+			isa = PBXGroup;
+			children = (
+				C74002991F6B63D00061C33C /* tingvoa.com_101.lrc */,
+				C740029A1F6B63D00061C33C /* tingvoa.com_102.lrc */,
+				C740029B1F6B63D00061C33C /* tingvoa.com_103.lrc */,
+				C740029C1F6B63D00061C33C /* tingvoa.com_104.lrc */,
+				C740029D1F6B63D00061C33C /* tingvoa.com_105.lrc */,
+				C740029E1F6B63D00061C33C /* tingvoa.com_106.lrc */,
+				C740029F1F6B63D00061C33C /* tingvoa.com_107.lrc */,
+				C74002A01F6B63D00061C33C /* tingvoa.com_108.lrc */,
+				C74002A11F6B63D00061C33C /* tingvoa.com_109.lrc */,
+				C74002A21F6B63D00061C33C /* tingvoa.com_110.lrc */,
+				C74002A31F6B63D00061C33C /* tingvoa.com_111.lrc */,
+				C74002A41F6B63D00061C33C /* tingvoa.com_112.lrc */,
+				C74002A51F6B63D00061C33C /* tingvoa.com_113.lrc */,
+				C74002A61F6B63D00061C33C /* tingvoa.com_114.lrc */,
+				C74002A71F6B63D00061C33C /* tingvoa.com_115.lrc */,
+				C74002A81F6B63D00061C33C /* tingvoa.com_116.lrc */,
+				C74002A91F6B63D00061C33C /* tingvoa.com_117.lrc */,
+				C74002AA1F6B63D00061C33C /* tingvoa.com_118.lrc */,
+				C74002AB1F6B63D00061C33C /* tingvoa.com_119.lrc */,
+				C74002AC1F6B63D00061C33C /* tingvoa.com_120.lrc */,
+				C74002AD1F6B63D00061C33C /* tingvoa.com_121.lrc */,
+				C74002AE1F6B63D00061C33C /* tingvoa.com_122.lrc */,
+				C74002AF1F6B63D00061C33C /* tingvoa.com_123.lrc */,
+				C74002B01F6B63D00061C33C /* tingvoa.com_124.lrc */,
+			);
+			path = Lrcs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,14 +469,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74002BD1F6B63D00061C33C /* tingvoa.com_113.lrc in Resources */,
 				C728EA911F6A28FC0047146A /* Info.plist in Resources */,
 				C728EAB01F6A61A40047146A /* jay_icon@2x.png in Resources */,
+				C74002C61F6B63D00061C33C /* tingvoa.com_122.lrc in Resources */,
 				C728EA8E1F6A226C0047146A /* KKMusicCell.xib in Resources */,
+				C74002C51F6B63D00061C33C /* tingvoa.com_121.lrc in Resources */,
+				C74002B41F6B63D00061C33C /* tingvoa.com_104.lrc in Resources */,
+				C74002C41F6B63D00061C33C /* tingvoa.com_120.lrc in Resources */,
+				C74002BB1F6B63D00061C33C /* tingvoa.com_111.lrc in Resources */,
+				C74002C01F6B63D00061C33C /* tingvoa.com_116.lrc in Resources */,
+				C74002B11F6B63D00061C33C /* tingvoa.com_101.lrc in Resources */,
 				C728EACE1F6A8A540047146A /* OldFriends.plist in Resources */,
+				C74002BA1F6B63D00061C33C /* tingvoa.com_110.lrc in Resources */,
 				C728EAAF1F6A61A40047146A /* jay@2x.jpg in Resources */,
+				C74002B31F6B63D00061C33C /* tingvoa.com_103.lrc in Resources */,
+				C74002C21F6B63D00061C33C /* tingvoa.com_118.lrc in Resources */,
+				C74002BC1F6B63D00061C33C /* tingvoa.com_112.lrc in Resources */,
+				C74002BE1F6B63D00061C33C /* tingvoa.com_114.lrc in Resources */,
 				C728EA7A1F6A1EAF0047146A /* LaunchScreen.storyboard in Resources */,
+				C74002B61F6B63D00061C33C /* tingvoa.com_106.lrc in Resources */,
+				C74002B21F6B63D00061C33C /* tingvoa.com_102.lrc in Resources */,
 				C728EA791F6A1EAF0047146A /* Assets.xcassets in Resources */,
+				C74002B71F6B63D00061C33C /* tingvoa.com_107.lrc in Resources */,
+				C74002BF1F6B63D00061C33C /* tingvoa.com_115.lrc in Resources */,
+				C74002C11F6B63D00061C33C /* tingvoa.com_117.lrc in Resources */,
 				C728EA7B1F6A1EAF0047146A /* Main.storyboard in Resources */,
+				C74002C71F6B63D00061C33C /* tingvoa.com_123.lrc in Resources */,
+				C74002B51F6B63D00061C33C /* tingvoa.com_105.lrc in Resources */,
+				C74002C31F6B63D00061C33C /* tingvoa.com_119.lrc in Resources */,
+				C74002C81F6B63D00061C33C /* tingvoa.com_124.lrc in Resources */,
+				C74002B81F6B63D00061C33C /* tingvoa.com_108.lrc in Resources */,
+				C74002B91F6B63D00061C33C /* tingvoa.com_109.lrc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
