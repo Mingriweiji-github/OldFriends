@@ -28,7 +28,7 @@ class KKMusicOperationTool: NSObject {
     }
     fileprivate  var musicMessageM = KKMusicMessageModel()
     
-    func getMusicWithMessage() -> KKMusicMessageModel{
+    func getMusicMessage() -> KKMusicMessageModel{
         if musicMs.count == 0 {
             return musicMessageM
         }
@@ -69,7 +69,7 @@ class KKMusicOperationTool: NSObject {
     }
     
     func setupLockMessage(){
-        let messageM = getMusicWithMessage()
+        let messageM = getMusicMessage()
         
         let musicName = messageM.music?.songname ?? ""
         let singername = messageM.music?.singername ?? ""

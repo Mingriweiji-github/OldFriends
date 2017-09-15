@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,9 +40,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="eol-XM-0Nr"/>
-                    <connections>
-                        <segue destination="tqt-9b-4Wo" kind="presentation" id="kMs-cy-MzU"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gch-DH-4Ti" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,7 +48,7 @@
         <!--DetailVC-->
         <scene sceneID="Wpr-tO-KMi">
             <objects>
-                <viewController id="tqt-9b-4Wo" customClass="KKDetailVC" customModule="KKFriends" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KKDetailVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tqt-9b-4Wo" customClass="KKDetailVC" customModule="KKFriends" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pxL-M7-1w7"/>
                         <viewControllerLayoutGuide type="bottom" id="hia-WR-ChY"/>
@@ -84,17 +82,57 @@
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hbs-2S-bbh">
                                         <rect key="frame" x="98" y="66.5" width="179" height="31"/>
                                     </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYt-BS-gIr">
+                                        <rect key="frame" x="15" y="15" width="40" height="40"/>
+                                        <state key="normal" image="miniplayer_btn_playlist_close"/>
+                                        <connections>
+                                            <action selector="backAction:" destination="tqt-9b-4Wo" eventType="touchUpInside" id="bAI-Je-gXx"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Eyu-6M-krf" firstAttribute="top" secondItem="qF3-Bn-fwc" secondAttribute="bottom" constant="3" id="4gX-gR-JIw"/>
                                     <constraint firstItem="qF3-Bn-fwc" firstAttribute="top" secondItem="WGw-0D-tjy" secondAttribute="top" constant="15" id="85D-4E-54m"/>
+                                    <constraint firstItem="CYt-BS-gIr" firstAttribute="top" secondItem="qF3-Bn-fwc" secondAttribute="top" id="8Wr-IY-FbM"/>
                                     <constraint firstItem="hbs-2S-bbh" firstAttribute="top" secondItem="Eyu-6M-krf" secondAttribute="bottom" constant="10" id="F0Q-uG-QuR"/>
                                     <constraint firstItem="hbs-2S-bbh" firstAttribute="centerX" secondItem="Eyu-6M-krf" secondAttribute="centerX" id="J8C-oy-mcV"/>
                                     <constraint firstItem="qF3-Bn-fwc" firstAttribute="centerX" secondItem="WGw-0D-tjy" secondAttribute="centerX" id="Qh9-hu-OlE"/>
                                     <constraint firstItem="Eyu-6M-krf" firstAttribute="centerX" secondItem="qF3-Bn-fwc" secondAttribute="centerX" id="RcI-s9-YX1"/>
                                     <constraint firstAttribute="height" constant="100" id="iOI-RG-FNG"/>
                                     <constraint firstAttribute="trailing" secondItem="hbs-2S-bbh" secondAttribute="trailing" constant="100" id="mc8-XP-Fj5"/>
+                                    <constraint firstItem="CYt-BS-gIr" firstAttribute="leading" secondItem="WGw-0D-tjy" secondAttribute="leading" constant="15" id="oxo-z1-qNx"/>
                                     <constraint firstItem="hbs-2S-bbh" firstAttribute="leading" secondItem="WGw-0D-tjy" secondAttribute="leading" constant="100" id="qRn-wS-uLb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ku-mc-MLn">
+                                <rect key="frame" x="0.0" y="120" width="375" height="419"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Vi-C9-RuL" userLabel="foreImageV">
+                                        <rect key="frame" x="33" y="55" width="309" height="309"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0Vi-C9-RuL" secondAttribute="height" multiplier="1:1" id="AJo-qa-aIm"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKg-TX-dwY" userLabel="lrcLabel" customClass="KKLrcLabelExtenion" customModule="KKFriends" customModuleProvider="target">
+                                        <rect key="frame" x="170" y="390" width="35.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eth-Gk-Eax">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="390"/>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="eth-Gk-Eax" secondAttribute="trailing" id="6ul-eW-AhV"/>
+                                    <constraint firstItem="XKg-TX-dwY" firstAttribute="centerX" secondItem="0Vi-C9-RuL" secondAttribute="centerX" id="FV9-ET-NC2"/>
+                                    <constraint firstItem="XKg-TX-dwY" firstAttribute="top" secondItem="eth-Gk-Eax" secondAttribute="bottom" id="JkL-52-PTN"/>
+                                    <constraint firstItem="eth-Gk-Eax" firstAttribute="leading" secondItem="4ku-mc-MLn" secondAttribute="leading" id="M5i-fF-5zZ"/>
+                                    <constraint firstItem="0Vi-C9-RuL" firstAttribute="top" secondItem="4ku-mc-MLn" secondAttribute="top" constant="55" id="Ts9-w0-El5"/>
+                                    <constraint firstItem="XKg-TX-dwY" firstAttribute="top" secondItem="0Vi-C9-RuL" secondAttribute="bottom" constant="26" id="YIA-e1-aog"/>
+                                    <constraint firstItem="0Vi-C9-RuL" firstAttribute="centerY" secondItem="4ku-mc-MLn" secondAttribute="centerY" id="oBC-iv-JhM"/>
+                                    <constraint firstItem="eth-Gk-Eax" firstAttribute="top" secondItem="4ku-mc-MLn" secondAttribute="top" id="rGN-Lu-ESE"/>
+                                    <constraint firstItem="0Vi-C9-RuL" firstAttribute="centerX" secondItem="4ku-mc-MLn" secondAttribute="centerX" id="t0Z-72-iOK"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E91-v2-IlM" userLabel="BottomView">
@@ -191,6 +229,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4ku-mc-MLn" secondAttribute="trailing" id="776-CH-3XM"/>
+                            <constraint firstItem="4ku-mc-MLn" firstAttribute="leading" secondItem="aVb-Wp-7Qz" secondAttribute="leading" id="7ly-77-J6c"/>
                             <constraint firstAttribute="bottom" secondItem="7m3-Dm-fTe" secondAttribute="bottom" id="96F-wn-qA3"/>
                             <constraint firstItem="7m3-Dm-fTe" firstAttribute="leading" secondItem="aVb-Wp-7Qz" secondAttribute="leading" id="Fin-kl-MkC"/>
                             <constraint firstItem="CU8-Ap-Gvl" firstAttribute="top" secondItem="pxL-M7-1w7" secondAttribute="bottom" id="FrC-ss-Jeh"/>
@@ -203,8 +243,10 @@
                             <constraint firstAttribute="trailing" secondItem="CU8-Ap-Gvl" secondAttribute="trailing" id="cTY-rd-6Wh"/>
                             <constraint firstItem="7m3-Dm-fTe" firstAttribute="top" secondItem="aVb-Wp-7Qz" secondAttribute="top" id="gn9-ci-BV7"/>
                             <constraint firstItem="WGw-0D-tjy" firstAttribute="leading" secondItem="aVb-Wp-7Qz" secondAttribute="leading" id="ljx-KE-ekY"/>
+                            <constraint firstItem="E91-v2-IlM" firstAttribute="top" secondItem="4ku-mc-MLn" secondAttribute="bottom" id="lqP-3q-bco"/>
                             <constraint firstAttribute="trailing" secondItem="E91-v2-IlM" secondAttribute="trailing" id="tnS-Hj-Xyx"/>
                             <constraint firstItem="CU8-Ap-Gvl" firstAttribute="leading" secondItem="aVb-Wp-7Qz" secondAttribute="leading" id="trD-Kc-8mE"/>
+                            <constraint firstItem="4ku-mc-MLn" firstAttribute="top" secondItem="WGw-0D-tjy" secondAttribute="bottom" id="uoZ-nI-rgd"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="DV7-Ax-zDJ" appends="YES" id="orG-c2-O0S"/>
@@ -213,10 +255,15 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="costTimeLabel" destination="433-eg-HzY" id="q9p-6p-9wy"/>
+                        <outlet property="foreImageV" destination="0Vi-C9-RuL" id="3po-Pn-iKO"/>
+                        <outlet property="lrcLabel" destination="XKg-TX-dwY" id="Wtc-LB-YPp"/>
+                        <outlet property="lrcScrollView" destination="eth-Gk-Eax" id="cy2-Il-bX4"/>
+                        <outlet property="playOrpause" destination="GPj-Rf-xID" id="HSc-yQ-2mg"/>
                         <outlet property="progressSlide" destination="uZ1-L4-lpS" id="m6c-1Y-UrG"/>
                         <outlet property="singerName" destination="Eyu-6M-krf" id="4WG-y0-G4V"/>
                         <outlet property="songName" destination="qF3-Bn-fwc" id="dQk-OR-wh9"/>
                         <outlet property="totalTimeLabel" destination="L9J-2X-HRN" id="HIl-6x-Emd"/>
+                        <outlet property="vlumeSlide" destination="hbs-2S-bbh" id="Mid-ab-lZB"/>
                         <outlet property="volumeSlide" destination="hbs-2S-bbh" id="kxd-sn-AoJ"/>
                     </connections>
                 </viewController>
@@ -234,6 +281,7 @@
     <resources>
         <image name="jay.jpg" width="350" height="350"/>
         <image name="main_tab_more" width="45" height="45"/>
+        <image name="miniplayer_btn_playlist_close" width="40" height="40"/>
         <image name="player_btn_next_normal" width="64" height="64"/>
         <image name="player_btn_pause_normal" width="64" height="64"/>
         <image name="player_btn_play_normal" width="64" height="64"/>

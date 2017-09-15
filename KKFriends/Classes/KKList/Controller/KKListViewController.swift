@@ -52,6 +52,11 @@ class KKListViewController: UITableViewController {
         cell?.musicM = musicMs[indexPath.row]
         return cell!
     }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        KKMusicOperationTool.sharedInstance.musicMs = musicMs
+        KKMusicOperationTool.sharedInstance.playMusicWithModel(musicMs[(indexPath as NSIndexPath).row])
+        let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "KKDetailVC")
+        navigationController?.present(detailVC, animated: true, completion: nil)
+    }
     
 }
