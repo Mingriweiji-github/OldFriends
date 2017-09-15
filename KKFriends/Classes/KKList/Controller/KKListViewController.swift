@@ -11,16 +11,24 @@ import UIKit
 class KKListViewController: UITableViewController {
 
     let cellID = "KKMusicCell"
+    var musicMs = [KKMusicModel](){
+        didSet{
+            tableView.reloadData()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
+        
+        KKMusicDataManager.getMusicMs { (models:[KKMusicModel]) in
+            self.musicMs = models
+            KKMusicOperationTool.sharedInstance.musicMs = models
+        }
     }
-
     func setupUI(){
         tableView.rowHeight = 60
-//        tableView.backgroundView = UIImageView.init(image: UIImage(named: ""))
+        tableView.backgroundView = UIImageView.init(image: UIImage(named: "backBg.jpg"))
         tableView.backgroundColor = UIColor.black
         tableView.separatorStyle = .none
 
@@ -31,7 +39,7 @@ class KKListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return musicMs.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -40,6 +48,8 @@ class KKListViewController: UITableViewController {
         if cell == nil {
             cell = Bundle.main.loadNibNamed("KKMusicCell", owner: nil, options: nil)?.first as? KKMusicCell
         }
+        cell?.animation(AnimationType.scale)
+        cell?.musicM = musicMs[indexPath.row]
         return cell!
     }
     

@@ -32,7 +32,7 @@
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="hnE-2z-Jlk"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                        <nil key="textColor"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHR-ED-8K0">
@@ -41,7 +41,7 @@
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="s0S-Oh-Y3V"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <nil key="textColor"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
@@ -56,6 +56,7 @@
                     <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Wle-OA-zAx" secondAttribute="trailing" constant="10" id="vxI-KZ-wEB"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="headerImageV" destination="rIp-Ct-BeX" id="54J-fu-egS"/>
                 <outlet property="singerNameLabel" destination="vHR-ED-8K0" id="4ou-rM-6vK"/>

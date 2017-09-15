@@ -210,6 +210,7 @@
                             <outletCollection property="gestureRecognizers" destination="DV7-Ax-zDJ" appends="YES" id="orG-c2-O0S"/>
                         </connections>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="costTimeLabel" destination="433-eg-HzY" id="q9p-6p-9wy"/>
                         <outlet property="progressSlide" destination="uZ1-L4-lpS" id="m6c-1Y-UrG"/>
